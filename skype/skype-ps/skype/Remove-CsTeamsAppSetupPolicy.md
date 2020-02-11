@@ -1,10 +1,11 @@
 ---
 external help file: Microsoft.Rtc.Management.dll-help.xml
+online version: https://docs.microsoft.com/powershell/module/skype/remove-csteamsappsetuppolicy
 applicable: Skype for Business Online
 title: Remove-CsTeamsAppSetupPolicy
 schema: 2.0.0
 manager: bulenteg
-author: tomtau
+author: tomkau
 ms.author: tomkau
 ms.reviewer:
 ---

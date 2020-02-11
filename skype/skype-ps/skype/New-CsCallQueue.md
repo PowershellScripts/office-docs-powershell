@@ -1,8 +1,9 @@
 ---
 external help file: Microsoft.Rtc.Management.dll-Help.xml
+online version: https://docs.microsoft.com/powershell/module/skype/new-cscallqueue
 applicable: Skype for Business Online
 title: New-CsCallQueue
-author: tomtau
+author: tomkau
 ms.author: tomkau
 manager: bulenteg
 ms.reviewer:

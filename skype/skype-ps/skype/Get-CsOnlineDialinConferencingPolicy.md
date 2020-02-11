@@ -1,10 +1,11 @@
 ---
 external help file: Microsoft.Rtc.Management.Hosted.dll-help.xml 
+online version: https://docs.microsoft.com/powershell/module/skype/get-csonlinedialinconferencingpolicy
 applicable: Skype for Business Online
 title: Get-CsOnlineDialinConferencingPolicy
 schema: 2.0.0
 manager: bulenteg
-author: tomtau
+author: tomkau
 ms.author: tomkau
 ms.reviewer:
 ---

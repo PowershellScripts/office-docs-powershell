@@ -752,6 +752,9 @@ The following cmdlet references are for Skype for Business and Microsoft Teams. 
 ### [Get-CsTeamsCallingPolicy](Get-CsTeamsCallingPolicy.md)
 {{Manually Enter Get-CsTeamsCallingPolicy Description Here}}
 
+### [Get-CsTeamsMobilityPolicy](Get-CsTeamsMobilityPolicy.md)
+{{Manually Enter Get-CsTeamsMobilityPolicy Description Here}}
+
 ### [Get-CsTeamsMeetingPolicy](Get-CsTeamsMeetingPolicy.md)
 {{Manually Enter Get-CsTeamsMeetingPolicy Description Here}}
 
@@ -994,6 +997,15 @@ The following cmdlet references are for Skype for Business and Microsoft Teams. 
 
 ### [Grant-CsTeamsCallingPolicy](Grant-CsTeamsCallingPolicy.md)
 {{Manually Enter Grant-CsTeamsCallingPolicy Description Here}}
+
+### [Grant-CsTeamsMobilityPolicy](Grant-CsTeamsMobilityPolicy.md)
+{{Manually Enter Grant-CsTeamsMobilityPolicy Description Here}}
+
+### [Grant-CsTeamsEmergencyCallingPolicy](Grant-CsTeamsEmergencyCallingPolicy.md)
+{{Manually Enter Grant-CsTeamsEmergencyCallingPolicy Description Here}}
+
+### [Grant-CsTeamsEmergencyCallRoutingPolicy](Grant-CsTeamsEmergencyCallRoutingPolicy.md)
+{{Manually Enter Grant-CsTeamsEmergencyCallRoutingPolicy Description Here}}
 
 ### [Grant-CsTeamsMeetingPolicy](Grant-CsTeamsMeetingPolicy.md)
 {{Manually Enter Grant-CsTeamsMeetingPolicy Description Here}}
@@ -2693,6 +2705,9 @@ The following cmdlet references are for Skype for Business and Microsoft Teams. 
 ### [Set-CsTeamsCallingPolicy](Set-CsTeamsCallingPolicy.md)
 {{Manually Enter Set-CsTeamsCallingPolicy Description Here}}
 
+### [Set-CsTeamsMobilityPolicy](Set-CsTeamsMobilityPolicy.md)
+{{Manually Enter Set-CsTeamsMobilityPolicy Description Here}}
+
 ### [Set-CsTeamsMeetingPolicy](Set-CsTeamsMeetingPolicy.md)
 {{Manually Enter Set-CsTeamsMeetingPolicy Description Here}}
 
@@ -3164,6 +3179,12 @@ The following cmdlet references are for Skype for Business and Microsoft Teams. 
 
 ### [Grant-CsTeamsCallingPolicy](Grant-CsTeamsCallingPolicy.md)
 
+### [Get-CsTeamsMobilityPolicy](Get-CsTeamsMobilityPolicy.md)
+
+### [Set-CsTeamsMobilityPolicy](Set-CsTeamsMobilityPolicy.md)
+
+### [Grant-CsTeamsMobilityPolicy](Grant-CsTeamsMobilityPolicy.md)
+
 ### [Set-CsTeamsMeetingBroadcastConfiguration](Set-CsTeamsMeetingBroadcastConfiguration.md)
 
 ### [Get-CsTeamsMeetingBroadcastConfiguration](Get-CsTeamsMeetingBroadcastConfiguration.md)
@@ -3189,6 +3210,8 @@ The following cmdlet references are for Skype for Business and Microsoft Teams. 
 ### [Disable-CsOnlineSipDomain](Disable-CsOnlineSipDomain.md)
 
 ### [Get-CsTeamsCallParkPolicy](Get-CsTeamsCallParkPolicy.md)
+
+### [Get-CsTeamsMobilityPolicy](Get-CsTeamsMobilityPolicy.md)
 
 ### [Set-CsTeamsCallParkPolicy](Set-CsTeamsCallParkPolicy.md)
 
@@ -3223,3 +3246,47 @@ The following cmdlet references are for Skype for Business and Microsoft Teams. 
 ### [Grant-CsTeamsAppPermissionPolicy](Grant-CsTeamsAppPermissionPolicy.md)
 
 ### [Remove-CsTeamsAppPermissionPolicy](Remove-CsTeamsAppPermissionPolicy.md)
+
+### [Get-CsTeamsEmergencyCallRoutingPolicy](Get-CsTeamsEmergencyCallRoutingPolicy.md)
+
+### [Get-CsTeamsEmergencyCallingPolicy](Get-CsTeamsEmergencyCallingPolicy.md)
+
+### [New-CsTeamsEmergencyCallRoutingPolicy](New-CsTeamsEmergencyCallRoutingPolicy.md)
+
+### [New-CsTeamsEmergencyCallingPolicy](New-CsTeamsEmergencyCallingPolicy.md)
+
+### [New-CsTeamsEmergencyNumber](New-CsTeamsEmergencyNumber.md)
+
+### [Remove-CsTeamsEmergencyCallRoutingPolicy](Remove-CsTeamsEmergencyCallRoutingPolicy.md)
+
+### [Remove-CsTeamsEmergencyCallingPolicy](Remove-CsTeamsEmergencyCallingPolicy.md)
+
+### [Set-CsTeamsEmergencyCallRoutingPolicy](Set-CsTeamsEmergencyCallRoutingPolicy.md)
+
+### [Set-CsTeamsEmergencyCallingPolicy](Set-CsTeamsEmergencyCallingPolicy.md)
+
+### [Get-CsTeamsUpgradeStatus](Get-CsTeamsUpgradeStatus.md)
+{{Manually Enter Get-CsTeamsUpgradeStatus Description Here}}
+
+### [New-CsTeamsTranslationRule](New-CsTeamsTranslationRuley.md)
+
+### [Set-CsTeamsTranslationRule](Set-CsTeamsTranslationRuley.md)
+
+### [Get-CsTeamsTranslationRule](Get-CsTeamsTranslationRuley.md)
+
+### [Remove-CsTeamsTranslationRule](Remove-CsTeamsTranslationRuley.md)
+
+### [Get-CsInboundBlockedNumberPattern](Get-CsInboundBlockedNumberPattern.md)
+
+### [New-CsInboundBlockedNumberPattern](New-CsInboundBlockedNumberPattern.md)
+
+### [Remove-CsInboundBlockedNumberPattern](Remove-CsInboundBlockedNumberPattern.md)
+
+### [Set-CsInboundBlockedNumberPattern](Set-CsInboundBlockedNumberPattern.md)
+
+### [Test-CsInboundBlockedNumberPattern](Test-CsInboundBlockedNumberPattern.md)
+
+### [Get-CsTenantBlockedCallingNumbers](Get-CsTenantBlockedCallingNumbers.md)
+
+### [Set-CsTenantBlockedCallingNumbers](Set-CsTenantBlockedCallingNumbers)
+

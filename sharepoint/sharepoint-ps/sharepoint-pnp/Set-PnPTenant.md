@@ -1,8 +1,10 @@
 ---
 external help file:
+online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnptenant
 applicable: SharePoint Online
 schema: 2.0.0
 ---
+
 # Set-PnPTenant
 
 ## SYNOPSIS
@@ -69,6 +71,7 @@ Set-PnPTenant [-MinCompatibilityLevel <Int>]
               [-EmailAttestationRequired <Boolean>]
               [-EmailAttestationReAuthDays <Int>]
               [-HideDefaultThemes <Boolean>]
+              [-DisabledWebPartIds <Guid[]>]
               [-Connection <SPOnlineConnection>]
 ```
 
@@ -228,6 +231,18 @@ The values are: None Direct Internal AnonymousAccess
 
 ```yaml
 Type: SharingLinkType
+Parameter Sets: (All)
+
+Required: False
+Position: Named
+Accept pipeline input: False
+```
+
+### -DisabledWebPartIds
+Guids of out of the box modern web part id's to hide
+
+```yaml
+Type: Guid[]
 Parameter Sets: (All)
 
 Required: False

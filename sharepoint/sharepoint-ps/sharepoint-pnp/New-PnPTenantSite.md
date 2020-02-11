@@ -1,12 +1,14 @@
 ---
 external help file:
+online version: https://docs.microsoft.com/powershell/module/sharepoint-pnp/new-pnptenantsite
 applicable: SharePoint Server 2013, SharePoint Server 2016, SharePoint Server 2019, SharePoint Online
 schema: 2.0.0
 ---
+
 # New-PnPTenantSite
 
 ## SYNOPSIS
-Creates a new site collection for the current tenant
+Creates a new (classic) site collection for the current tenant
 
 ## SYNTAX 
 

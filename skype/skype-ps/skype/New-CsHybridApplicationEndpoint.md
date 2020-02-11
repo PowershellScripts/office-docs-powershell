@@ -1,5 +1,6 @@
 ---
 external help file: Microsoft.Rtc.Management.dll-help.xml
+online version: https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint
 applicable: Lync Server 2013, Skype for Business Server 2015, Skype for Business Server 2019
 title: New-CsHybridApplicationEndpoint
 schema: 2.0.0
@@ -34,7 +35,7 @@ Hybrid connectivity between Skype for Business Server and Skype for Business Onl
 
 ### -------------------------- Example 1 --------------------------
 ```
-PS C:\> New-CsHybridApplicationEndpoint -ApplicationId 41ec7d50-ba91-1208-73ee-136b88859725 -DisplayName NewBot1 -SipAddress sip:newbot1@litwareinc.com –OU "ou=Redmond,dc=litwareinc,dc=com"
+PS C:\> New-CsHybridApplicationEndpoint -ApplicationId 41ec7d50-ba91-1208-73ee-136b88859725 -DisplayName NewBot1 -SipAddress sip:newbot1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
 ```
 
 This example creates a hybrid application endpoint named NewBot1 in Skype for Business Server. This application was created using the Skype for Business Bot Framework which allows you to build and connect intelligent bots to interact with your Skype for Business users using text, cards, or speech.
@@ -42,7 +43,11 @@ This example creates a hybrid application endpoint named NewBot1 in Skype for Bu
 ## PARAMETERS
 
 ### -ApplicationId
-The ApplicationId for the application endpoint that is being created.
+The ApplicationId or Client Id for which the endpoint is being created.
+
+There are predefined values if you are creating an on-premises resource account for Skype for Business hybrid deployments:
+* Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
+* Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 ```yaml
 Type: Guid
